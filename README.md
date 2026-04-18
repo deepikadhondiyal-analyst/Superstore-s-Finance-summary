@@ -20,14 +20,15 @@ This project showcases a comprehensive **Financial Performance Dashboard** built
 Example
 
 -- Check duplicate records 
+  
+   
    SELECT 
         row_id,
        Order_id,
        Product_ID,
        Customer_ID,
        COUNT(*) As Duplicate
-     
-      FROM DBO.[Sample - Superstore]
+    FROM DBO.[Sample - Superstore]
       GROUP BY row_id,
                Order_id,
                Product_ID,
