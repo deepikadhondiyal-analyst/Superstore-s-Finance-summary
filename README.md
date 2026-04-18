@@ -22,8 +22,8 @@ Example
 -- Check duplicate records 
   
    
-   SELECT 
-        row_id,
+  
+     SELECT   row_id,
        Order_id,
        Product_ID,
        Customer_ID,
