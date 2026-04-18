@@ -18,12 +18,7 @@ This project showcases a comprehensive **Financial Performance Dashboard** built
   * Consistency
   * Data completeness
 Example
--- Check for null values
-    SELECT
-      SUM(CASE WHEN Customer_id IS NULL THEN 1 ELSE 0 END) AS Null_customer_id,
-      SUM(CASE WHEN Order_date IS NULL THEN 1 ELSE 0 END) AS Null_Date,
-    FROM DBO.[Sample - Superstore]
-    
+
 -- Check duplicate records 
      SELECT 
         row_id,
