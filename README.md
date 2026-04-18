@@ -28,6 +28,7 @@ Example
        Product_ID,
        Customer_ID,
        COUNT(*) As Duplicate
+   
     FROM DBO.[Sample - Superstore]
       GROUP BY row_id,
                Order_id,
