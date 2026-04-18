@@ -20,7 +20,7 @@ This project showcases a comprehensive **Financial Performance Dashboard** built
 Example
 
 -- Check duplicate records 
-     SELECT 
+   SELECT 
         row_id,
        Order_id,
        Product_ID,
